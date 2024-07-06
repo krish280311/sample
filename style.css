@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: black;
+    color: #ffffff;
+    padding: 15px;
+}
+
+li,h1,ul{
+    display: inline;
+}
+ul{
+    margin-left: 70%;
+}
+h1{
+    margin-left: 10px;
+}
+li{
+    margin-right: 20px;
+    color: gray;
+    cursor: pointer;
+}
+
+li:hover{
+    color: white;
+}
+.Search{
+    padding: 25px;
+    text-align: center;
+}
+input{
+    width: 800px;
+    padding: 10px;
+}
+.box{
+
+    display: inline-block;
+    margin-left: 30px;
+}
+pre{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+.Items{
+    text-align: center;
+    padding: 20px;
+}
+pre:hover{
+    color: red;
+}
+.aboutus{
+    text-align: center;
+    margin-top: 20px;
+}
+.Contact{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
